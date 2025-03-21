@@ -15,6 +15,7 @@ const STOCK_API = 'https://workers-playground-dawn-credit-31e5.hs913271.workers.
 const CHECK_INTERVAL = 5 * 60 * 1000; // Check every 5 minutes
 
 async function fetchStock() {
+  // i have changed code
   try {
     const response = await fetch(STOCK_API);
     const data = await response.json();
